@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <header ></header>
+        <nav id="navbar">
+            <ul class="navigation">
+                <li>
+                    <a  href="./Presentation.html"> Présentation</a>
+                </li>
+                <li>
+                    <a href="./photo.html">Photos</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact</h1>
+        <div id="formulaire">
+            <form action="submit">
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Votre email">
+                </p>
+
+                <p>
+                    Sexe
+                    <input type="radio" id="man" name="sex" value="man">
+                    <label for="man">Homme</label>
+
+
+                    <input type="radio" id="woman" name="sex" value="woman">
+                    <label for="Woman">Femme</label>
+
+
+                    <input type="radio" id="other" name="sex" value="other">
+                    <label for="other">Autre</label>
+                </p>
+                <p>
+                    <label for="text">Object</label>
+                    <input type="text" name="object" id="object" placeholder="Votre objet">
+                </p>
+                <p>
+                <p>
+                    <label>Commentaire</label>
+                </p>
+                <textarea name="commentary" id="commentary" cols="30" rows="10"
+                    placeholder="Tapez ici votre commentaire"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Envoyer</button>
+                </p>
+            </form>
+        </div>    
+    </main>
+
+</body>
+
+</html>
